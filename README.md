@@ -16,9 +16,6 @@ ExpenditureTracker is planned to be an intelligent expenditure tracking applicat
 - **Personalized Financial Insights:**  
   Future enhancements will include support for individual user profiles, budgets, and financial goal tracking, enabling users to receive tailored insights and recommendations.
 
-- **Seamless Financial Data Integration:**  
-  Planned integration with popular banks and financial institutions will allow the automatic import and reconciliation of transactions, streamlining the expense tracking process further.
-
 ## Contributing
 
 Contributions and suggestions are welcome! If you have ideas or improvements to help shape the future of ExpenditureTracker, please open an issue or submit a pull request.
