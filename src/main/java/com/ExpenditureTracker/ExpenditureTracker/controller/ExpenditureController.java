@@ -20,7 +20,7 @@ public class ExpenditureController {
     @GetMapping("/new")
     public String showAddExpenditureForm(Model model) {
         model.addAttribute("expenditureForm", new ExpenditureModel());
-        return "add-expenditure"; // Thymeleaf template
+        return "add_expenditure"; // Thymeleaf template
     }
 
     // 2. Handle form submission
@@ -34,6 +34,6 @@ public class ExpenditureController {
     @GetMapping("/list")
     public String listExpenditures(Model model) {
         model.addAttribute("expenditures", expenditureService.getAllExpenditures());
-        return "list-expenditures"; // Thymeleaf template
+        return "list_expenditures"; // Thymeleaf template
     }
 }
